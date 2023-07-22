@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  overflow: 'auto';
+}
+
+@media screen and (max-width: 660px) {
+  body {
+    height: 670px;
+    width: 100%;
+    overflow: 'auto';
+  }
+}
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
